@@ -1,0 +1,78 @@
+<section class="page contacto bg-dark text-white py-5">
+    <div class="container">
+        <h2 class="mb-5 text-center text-uppercase">Encuentranos</h2>
+        <div class="row g-4 align-items-stretch mb-5 ">
+            <!--Mapa-->
+            <div class="col-lg-8">
+                <div class="card h-100 bg-dark border-success overflow-hidden contact-card">
+                    <div class="ratio ratio-16x9">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">  
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Información de contacto -->
+        <div class="col-lg-4">
+            <div class="card h-100 bg-dark border-success p-4 contact-card">
+                <div class="contact-item  mb-3 text-white">
+                    <h5>📍 Dirección</h5>
+                    <p>Calle 7 Poniente No.3, Santa Cruz, Huamuxtitlán 41200</p>                    
+                </div>
+                <div class="contact-item mb-3 text-white">
+                    <h5>📞 Teléfonos</h5>
+                    <p class="mb-1">+52 222 251 2116</p>
+                    <p>+52 757 151 1481</p>
+                </div>
+                <div class="contact-item mb-3">
+                    <h5>✉ Correo</h5>
+                    <a href="mailto:santacruzguerre@gmail.com" class="text-success">santacruzgro9899@gmail.com</a>
+                </div>
+                <div class="contact-item text-white">
+                    <h5>⏰ Horario</h5>
+                    <p class="mb-1">Lunes a Viernes: 9:00 - 18:00</p>
+                    <p>Sábado: 10:00 - 14:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-contect-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="card bg-dark border-success p-4 contact-card">
+                    <h3 class="mb-4 text-center">Formulario de Contacto</h3>
+                        <form id="whatsappForm">
+                            <div class="mb-3">
+                                <input type="text" id="nombrewapps" class="form-control bg-dark text-white border-success"
+                                placeholder="Nombre" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" id="correo" class="form-control bg-dark text-white border-success"
+                                placeholder="Correo" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="text" id="telefono" class="form-control bg-dark text-white border-success"
+                                placeholder="Teléfono" required>
+                            </div>
+
+                            <div class="mb-4">
+                                <textarea id="mensaje" class="form-control bg-dark text-white border-success"
+                                rows="5" placeholder="Mensaje" required></textarea>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <button type="reset" class="btn btn-outline-success">Limpiar</button>
+                                <button type="submit" class="btn btn-success">Enviar a Whatsapp</button>
+                            </div>
+                        </form>   
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
